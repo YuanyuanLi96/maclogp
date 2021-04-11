@@ -34,7 +34,7 @@ result=MAC(models, data, B, alpha)
 plot_MAC(models, alpha, result$con_sets, p)
 ```
 
-<img src="man/figures/README-unnamed-chunk-2-1.png" width="80%" /><img src="man/figures/README-unnamed-chunk-2-2.png" width="80%" /><img src="man/figures/README-unnamed-chunk-2-3.png" width="80%" />
+<img src="man/figures/README-unnamed-chunk-2-1.png" width="50%" /><img src="man/figures/README-unnamed-chunk-2-2.png" width="50%" /><img src="man/figures/README-unnamed-chunk-2-3.png" width="50%" />
 
     #> [[1]]
     #>      [,1] [,2] [,3]  [,4]  [,5]
