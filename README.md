@@ -30,7 +30,7 @@ y = x%*% true_b+rnorm(n)
 alpha=c(0.1,0.05,0.01)
 data=list(x=x,y=y)
 models=Models_gen(1:p)
-result=MAC(models, data, B, alpha)
+result=MAC(models, data, B, alpha)#default criterion is "BIC".
 plot_MAC(models, alpha, result$con_sets, p)
 ```
 
