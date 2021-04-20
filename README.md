@@ -14,9 +14,6 @@ You can install the released version of mac from github with:
 devtools::install_github("YuanyuanLi96/mac")
 ```
 
-## Reference
-
-Liu, X., Li, Y. & Jiang, J. Simple measures of uncertainty for model selection. TEST (2020), 1-20.
 
 ## Example
 
@@ -54,3 +51,7 @@ plot_MAC(models, alpha, result$con_sets, p)
     #> [1,] TRUE TRUE TRUE FALSE FALSE
     #> [2,] TRUE TRUE TRUE  TRUE FALSE
     #> [3,] TRUE TRUE TRUE FALSE  TRUE
+    
+    
+ ## Reference
+ Liu, X., Li, Y. & Jiang, J. Simple measures of uncertainty for model selection. *TEST* (2020). https://doi.org/10.1007/s11749-020-00737-9
