@@ -1,6 +1,6 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-# mac
+# mac: Measures of Uncertainty for Model Selection
 
 <!-- badges: start -->
 <!-- badges: end -->
