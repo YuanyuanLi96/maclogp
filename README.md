@@ -14,6 +14,10 @@ You can install the released version of mac from github with:
 devtools::install_github("YuanyuanLi96/mac")
 ```
 
+## Reference
+
+Liu, X., Li, Y. & Jiang, J. Simple measures of uncertainty for model selection. TEST (2020), 1-20.
+
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
