@@ -53,5 +53,5 @@ plot_MAC(models, alpha, result$con_sets, p)
     #> [3,] TRUE TRUE TRUE FALSE  TRUE
     
     
- ## Reference
+ ## References
  Liu, X., Li, Y. & Jiang, J. Simple measures of uncertainty for model selection. *TEST* (2020). https://doi.org/10.1007/s11749-020-00737-9.
