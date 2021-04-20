@@ -11,6 +11,7 @@ The goal of mac is to compute measures of uncertainty for a model selection meth
 You can install the released version of mac from github with:
 
 ``` r
+require(devtools)
 devtools::install_github("YuanyuanLi96/mac")
 ```
 
