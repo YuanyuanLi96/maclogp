@@ -1,0 +1,394 @@
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+]0;~/paper/maclogp[?1034h(base) Yuanyuans-MBP:maclogp yuanyuanli$ R CMD check
+Error: no packages were specified
+]0;~/paper/maclogp(base) Yuanyuans-MBP:maclogp yuanyuanli$ R CMD check maclogp
+Warning: ‘maclogp’ is neither a file nor directory, skipping
+
+]0;~/paper/maclogp(base) Yuanyuans-MBP:maclogp yuanyuanli$ R CMD build brocolors[K[K[K[K[K[K[K[K[K[K maclogp
+ ERROR
+cannot change to directory ‘maclogp’
+]0;~/paper/maclogp(base) Yuanyuans-MBP:maclogp yuanyuanli$ cd ..
+]0;~/paper(base) Yuanyuans-MBP:paper yuanyuanli$ cd ..R CMD build maclogp
+* checking for file ‘maclogp/DESCRIPTION’ ... OK
+* preparing ‘maclogp’:
+* checking DESCRIPTION meta-information ... OK
+* checking for LF line-endings in source and make files and shell scripts
+* checking for empty or unneeded directories
+* looking to see if a ‘data/datalist’ file should be added
+* building ‘maclogp_0.1.1.tar.gz’
+
+]0;~/paper(base) Yuanyuans-MBP:paper yuanyuanli$ R CMD build maclogpcd ..[KR CMD build maclogpcheck[C[C[C[C[C[C[C[C[K[K[K[K[K[K[Kmaclogp_0.1.1.tar.gz
+* using log directory ‘/Users/yuanyuanli/paper/maclogp.Rcheck’
+* using R version 3.6.3 (2020-02-29)
+* using platform: x86_64-apple-darwin15.6.0 (64-bit)
+* using session charset: UTF-8
+* checking for file ‘maclogp/DESCRIPTION’ ... OK
+* this is package ‘maclogp’ version ‘0.1.1’
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘maclogp’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking examples ... OK
+* checking PDF version of manual ... OK
+* DONE
+
+Status: OK
+
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+]0;~/paper[?1034h(base) Yuanyuans-MBP:paper yuanyuanli$ R CMD check maclogp_0.1.1.tar.gz[13Pbuild maclogp
+* checking for file ‘maclogp/DESCRIPTION’ ... OK
+* preparing ‘maclogp’:
+* checking DESCRIPTION meta-information ... OK
+* checking for LF line-endings in source and make files and shell scripts
+* checking for empty or unneeded directories
+* looking to see if a ‘data/datalist’ file should be added
+* building ‘maclogp_0.1.1.tar.gz’
+
+]0;~/paper(base) Yuanyuans-MBP:paper yuanyuanli$ R CMD build maclogpcheck maclogp_0.1.1.tar.gz
+* using log directory ‘/Users/yuanyuanli/paper/maclogp.Rcheck’
+* using R version 3.6.3 (2020-02-29)
+* using platform: x86_64-apple-darwin15.6.0 (64-bit)
+* using session charset: UTF-8
+* checking for file ‘maclogp/DESCRIPTION’ ... OK
+* this is package ‘maclogp’ version ‘0.1.1’
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘maclogp’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking examples ... OK
+* checking PDF version of manual ... OK
+* DONE
+
+Status: OK
+
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+]0;~/paper[?1034h(base) Yuanyuans-MBP:paper yuanyuanli$ R CMD check maclogp_0.1.1.tar.gz[13Pbuild maclogpcheck maclogp_0.1.1.tar.gz[13Pbuild maclogp
+* checking for file ‘maclogp/DESCRIPTION’ ... OK
+* preparing ‘maclogp’:
+* checking DESCRIPTION meta-information ... OK
+* checking for LF line-endings in source and make files and shell scripts
+* checking for empty or unneeded directories
+* looking to see if a ‘data/datalist’ file should be added
+* building ‘maclogp_0.1.1.tar.gz’
+
+]0;~/paper(base) Yuanyuans-MBP:paper yuanyuanli$ R CMD build maclogpcheck maclogp_0.1.1.tar.gz
+* using log directory ‘/Users/yuanyuanli/paper/maclogp.Rcheck’
+* using R version 3.6.3 (2020-02-29)
+* using platform: x86_64-apple-darwin15.6.0 (64-bit)
+* using session charset: UTF-8
+* checking for file ‘maclogp/DESCRIPTION’ ... OK
+* this is package ‘maclogp’ version ‘0.1.1’
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘maclogp’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking examples ... OK
+* checking PDF version of manual ... OK
+* DONE
+
+Status: OK
+
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+]0;~/paper[?1034h(base) Yuanyuans-MBP:paper yuanyuanli$ R CMD check maclogp_0.1.1.tar.gz[13Pbuild maclogpcheck maclogp_0.1.1.tar.gz[13Pbuild maclogp
+* checking for file ‘maclogp/DESCRIPTION’ ... OK
+* preparing ‘maclogp’:
+* checking DESCRIPTION meta-information ... OK
+* checking for LF line-endings in source and make files and shell scripts
+* checking for empty or unneeded directories
+* looking to see if a ‘data/datalist’ file should be added
+* building ‘maclogp_0.1.1.tar.gz’
+
+]0;~/paper(base) Yuanyuans-MBP:paper yuanyuanli$ R CMD build maclogpcheck maclogp_0.1.1.tar.gz
+* using log directory ‘/Users/yuanyuanli/paper/maclogp.Rcheck’
+* using R version 3.6.3 (2020-02-29)
+* using platform: x86_64-apple-darwin15.6.0 (64-bit)
+* using session charset: UTF-8
+* checking for file ‘maclogp/DESCRIPTION’ ... OK
+* this is package ‘maclogp’ version ‘0.1.1’
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘maclogp’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking examples ... OK
+* checking PDF version of manual ... OK
+* DONE
+
+Status: OK
+
+]0;~/paper(base) Yuanyuans-MBP:paper yuanyuanli$ update-tlmgr-latest(.sh/.exe) --update
+bash: syntax error near unexpected token `.sh/.exe'
+]0;~/paper(base) Yuanyuans-MBP:paper yuanyuanli$ [K(base) Yuanyuans-MBP:paper yuanyuanli$ update-tlmgr-latest(.sh/.exe) --update[6PR CMD check maclogp_0.1.1.tar.gz
+* using log directory ‘/Users/yuanyuanli/paper/maclogp.Rcheck’
+* using R version 3.6.3 (2020-02-29)
+* using platform: x86_64-apple-darwin15.6.0 (64-bit)
+* using session charset: UTF-8
+* checking for file ‘maclogp/DESCRIPTION’ ... OK
+* this is package ‘maclogp’ version ‘0.1.1’
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘maclogp’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking examples ... OK
+* checking PDF version of manual ... OK
+* DONE
+
+Status: OK
+
+]0;~/paper(base) Yuanyuans-MBP:paper yuanyuanli$ [K(base) Yuanyuans-MBP:paper yuanyuanli$ R CMD check maclogp_0.1.1.tar.gz
+* using log directory ‘/Users/yuanyuanli/paper/maclogp.Rcheck’
+* using R version 3.6.3 (2020-02-29)
+* using platform: x86_64-apple-darwin15.6.0 (64-bit)
+* using session charset: UTF-8
+* checking for file ‘maclogp/DESCRIPTION’ ... OK
+* this is package ‘maclogp’ version ‘0.1.1’
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘maclogp’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking examples ... OK
+* checking PDF version of manual ... OK
+* DONE
+
+Status: OK
+
+]0;~/paper(base) Yuanyuans-MBP:paper yuanyuanli$ [K(base) Yuanyuans-MBP:paper yuanyuanli$ 

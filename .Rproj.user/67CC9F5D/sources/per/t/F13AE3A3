@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1618980197655.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2100262368",
+    "id" : "F13AE3A3",
+    "lastKnownWriteTime" : 1618980837,
+    "last_content_update" : 1618980837446,
+    "path" : "~/paper/maclogp/R/subfuncs.R",
+    "project_path" : "R/subfuncs.R",
+    "properties" : {
+        "cursorPosition" : "5,20",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
