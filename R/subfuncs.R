@@ -1,9 +1,18 @@
 #' @import rlist
 #' @import BMA
 #' @import plot.matrix
+<<<<<<< HEAD
 #' @importFrom graphics axis plot
 #' @importFrom stats gaussian lm rnorm
 #' @importFrom utils combn
+=======
+<<<<<<< HEAD
+#' @importFrom graphics axis plot
+#' @importFrom stats gaussian lm rnorm
+#' @importFrom utils combn
+=======
+>>>>>>> df66a04391bbc2eb7f620013926717da0696880a
+>>>>>>> 0e6559ebfecba939bffcc58fa8afec032574de77
 
 Generate.Y <- function(predy, sigmasq, n) {
   Y = predy + rnorm(n,0, sd = sqrt(sigmasq))

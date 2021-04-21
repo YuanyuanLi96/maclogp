@@ -7,9 +7,18 @@ export(plot_MAC)
 import(BMA)
 import(plot.matrix)
 import(rlist)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 0e6559ebfecba939bffcc58fa8afec032574de77
 importFrom(graphics,axis)
 importFrom(graphics,plot)
 importFrom(stats,gaussian)
 importFrom(stats,lm)
 importFrom(stats,rnorm)
 importFrom(utils,combn)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> df66a04391bbc2eb7f620013926717da0696880a
+>>>>>>> 0e6559ebfecba939bffcc58fa8afec032574de77
