@@ -8,10 +8,18 @@ The goal of maclogp is to compute measures of uncertainty for a model selection 
 
 ## Installation
 
+<<<<<<< HEAD
 You can install the released version of maclogp from github with:
 
 ``` r
 devtools::install_github("YuanyuanLi96/maclogp")
+=======
+You can install the released version of mac from github with:
+
+``` r
+require(devtools)
+devtools::install_github("YuanyuanLi96/mac")
+>>>>>>> df66a04391bbc2eb7f620013926717da0696880a
 ```
 
 
@@ -20,7 +28,11 @@ devtools::install_github("YuanyuanLi96/maclogp")
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
+<<<<<<< HEAD
 library(maclogp)
+=======
+library(mac)
+>>>>>>> df66a04391bbc2eb7f620013926717da0696880a
 set.seed(0)
 n= 100
 B=100
