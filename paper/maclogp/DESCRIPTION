@@ -11,5 +11,5 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1.9001
 Imports: BMA, plot.matrix, rlist, utils
 NeedsCompilation: no
-Packaged: 2021-04-20 23:41:45 UTC; yuanyuanli
+Packaged: 2021-04-21 05:19:37 UTC; yuanyuanli
 Depends: R (>= 3.5.0)
