@@ -1,17 +1,17 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-# mac: Measures of Uncertainty for Model Selection
+# maclogp: Measures of Uncertainty for Model Selection
 
 <!-- badges: start -->
 <!-- badges: end -->
-The goal of mac is to compute measures of uncertainty for a model selection method based on an information criterion. Two measures were proposed by [Liu, et.al](https://doi.org/10.1007/s11749-020-00737-9). The first measure is a kind of model confidence set that measures the variation of model selection, called MAC. The second measure focuses on error of model selection, called LogP. Another similar model confidence set adapted from Bayesian Model Averaging can also be computed using this package.
+The goal of maclogp is to compute measures of uncertainty for a model selection method based on an information criterion. Two measures were proposed by [Liu, et.al](https://doi.org/10.1007/s11749-020-00737-9). The first measure is a kind of model confidence set that measures the variation of model selection, called MAC. The second measure focuses on error of model selection, called LogP. Another similar model confidence set adapted from Bayesian Model Averaging can also be computed using this package.
 
 ## Installation
 
-You can install the released version of mac from github with:
+You can install the released version of maclogp from github with:
 
 ``` r
-devtools::install_github("YuanyuanLi96/mac")
+devtools::install_github("YuanyuanLi96/maclogp")
 ```
 
 
@@ -20,7 +20,7 @@ devtools::install_github("YuanyuanLi96/mac")
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-library(mac)
+library(maclogp)
 set.seed(0)
 n= 100
 B=100
