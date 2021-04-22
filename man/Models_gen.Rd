@@ -21,3 +21,6 @@ vector of candidate predictors.
 \examples{
 Models_gen(1:5)
 }
+\seealso{
+\code{\link[utils]{combn}}, \code{\link[rlist]{list.flatten}}
+}

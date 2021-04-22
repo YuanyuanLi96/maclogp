@@ -40,9 +40,9 @@ This funcion generates a heat map for a given model confidence set. Each row rep
 a model in the confidence set, and colored cell represents the variables in that model.
 }
 \examples{
-n= 100
-B=100
-p=5
+n= 50
+B= 100
+p= 5
 x = matrix(rnorm(n*p, mean=0, sd=1), n, p)
 true_b = c(1:3, rep(0,p-3))
 y = x\%*\% true_b+rnorm(n)
@@ -53,4 +53,7 @@ result=MAC(models, data, B, alpha)
 plot_MAC(models, alpha, result$con_sets, p)
 result2=bms(data, alpha)
 plot_MAC(result2$models, alpha, result2$con_sets, p)
+}
+\seealso{
+\code{\link{MAC}}
 }

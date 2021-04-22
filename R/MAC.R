@@ -1,6 +1,6 @@
-#' MAC and LogP measure
+#' Mac and LogP measure
 #'
-#' This function allows you to obtain a model confidence set using MAC procedure and the LogP uncertainty measure
+#' This function allows you to obtain a model confidence set using Mac procedure and the LogP uncertainty measure
 #' for a selection method based on an information criterion.
 #' @param models A list with one entry for each model. Each entry is an
 #' integer vector that specifies the columns of matrix \code{data$x} to be used
@@ -32,13 +32,18 @@
 #' of estimated coefficients based on original data for that model.}
 #' \item{hat_prob}{the Bootstrap probability for single selected model.}
 #' \item{hat_logp}{the LogP measure.}
-#' @keywords MAC LogP
+#' @keywords Mac LogP
+#' @seealso \code{\link{plot_MAC}}
+#' @references 
+#' Liu, X., Li, Y. & Jiang, J.(2020). Simple measures of uncertainty for model selection.
+#' \emph{TEST}, 1-20.
+
 #' @export
 #' @examples
 #' set.seed(0)
-#' n= 100
-#' B=100
-#' p=6
+#' n= 50
+#' B= 100
+#' p= 5
 #' x = matrix(rnorm(n*p, mean=0, sd=1), n, p)
 #' true_b = c(1:3, rep(0,p-3))
 #' y = x%*% true_b+rnorm(n)

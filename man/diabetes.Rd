@@ -35,7 +35,7 @@ norm 1. The response variable has been centered (mean 0).
 }
 \references{
 { Efron, Hastie, Johnstone and Tibshirani (2003), Least Angle Regression.
-\emph{Annals of Statistics}
+\emph{Annals of Statistics}.
 }
 }
 \keyword{datasets}

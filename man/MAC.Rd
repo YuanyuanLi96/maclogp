@@ -2,7 +2,7 @@
 % Please edit documentation in R/MAC.R
 \name{MAC}
 \alias{MAC}
-\title{MAC and LogP measure}
+\title{Mac and LogP measure}
 \usage{
 MAC(models, data, B, alpha, method = "bic", delta = 1e-04, eps = 1e-06)
 }
@@ -47,14 +47,14 @@ of estimated coefficients based on original data for that model.}
 \item{hat_logp}{the LogP measure.}
 }
 \description{
-This function allows you to obtain a model confidence set using MAC procedure and the LogP uncertainty measure
+This function allows you to obtain a model confidence set using Mac procedure and the LogP uncertainty measure
 for a selection method based on an information criterion.
 }
 \examples{
 set.seed(0)
-n= 100
-B=100
-p=6
+n= 50
+B= 100
+p= 5
 x = matrix(rnorm(n*p, mean=0, sd=1), n, p)
 true_b = c(1:3, rep(0,p-3))
 y = x\%*\% true_b+rnorm(n)
@@ -63,5 +63,12 @@ data=list(x=x,y=y)
 models=Models_gen(1:p)
 result=MAC(models, data, B, alpha)
 }
+\references{
+Liu, X., Li, Y. & Jiang, J.(2020). Simple measures of uncertainty for model selection.
+\emph{TEST}, 1-20.
+}
+\seealso{
+\code{\link{plot_MAC}}
+}
 \keyword{LogP}
-\keyword{MAC}
+\keyword{Mac}

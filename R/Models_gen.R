@@ -8,6 +8,7 @@
 #' @return Returns a list with one entry for each model. Each entry is an integer
 #'  vector that specifies the columns of matrix \code{x} to be used as a regressor in that model.
 #' @export
+#' @seealso \code{\link[utils]{combn}}, \code{\link[rlist]{list.flatten}}
 #' @examples
 #' Models_gen(1:5)
 

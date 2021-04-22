@@ -23,10 +23,11 @@
 #' variable is in the model. A cell in white means the variable is not in that model;
 #' a cell in user-specified color means the variable is in that model.
 #' @export
+#' @seealso \code{\link{MAC}}
 #' @examples
-#' n= 100
-#' B=100
-#' p=5
+#' n= 50
+#' B= 100
+#' p= 5
 #' x = matrix(rnorm(n*p, mean=0, sd=1), n, p)
 #' true_b = c(1:3, rep(0,p-3))
 #' y = x%*% true_b+rnorm(n)

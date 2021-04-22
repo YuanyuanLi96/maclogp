@@ -1,7 +1,7 @@
 #' Bayesian Model Confidence Set
 #'
 #' This function allows you to obtain a bayesian model confidence set with
-#' prosterior as the confidence level of each model.
+#' approximate posterior model probability.
 #' @param data a list including
 #' \describe{
 #' \item{x}{covariates matrix, of dimension nobs and nvars;each row is an observation vector.}
@@ -22,18 +22,25 @@
 #' \item{probs_inorder}{Model posteriors in decreasing order.}
 #' \item{beta_ls}{a list with one entry for each model. Each entry is a vector
 #' of estimated coefficients for that model.}
+#' @seealso \code{\link[BMA]{bic.glm}}
+#' @references 
+#' Liu, X., Li, Y. & Jiang, J.(2020). Simple measures of uncertainty for model selection.
+#' \emph{TEST}, 1-20.
+#' 
+#' Raftery, Adrian E. (1995). Bayesian model selection in social research (with Discussion). 
+#' \emph{Sociological Methodology} 1995 (Peter V. Marsden, ed.), pp. 111-196.
 #' @keywords Bayesian
-#' @export
 #' @examples
-#' n= 100
-#' B=100
-#' p=6
+#' n= 50
+#' B= 100
+#' p= 5 
 #' x = matrix(rnorm(n*p, mean=0, sd=1), n, p)
 #' true_b = c(1:3, rep(0,p-3))
 #' y = x%*% true_b+rnorm(n)
 #' alpha=c(0.1,0.05,0.01)
 #' data=list(x=x,y=y)
 #' result=bms(data,alpha)
+#' @export
 
 bms = function(data, alpha,eps=1e-6){
   Y= data$y
