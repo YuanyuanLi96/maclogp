@@ -57,6 +57,6 @@ bms = function(data, alpha,eps=1e-6){
   result$con_sets = lapply(k, function(x)1:x)#return a list of sublists(models)
   result$length_con = k
   result$probs_inorder= mod.probs
-  result$betals=apply(fit$mle,1,function(x)x[x!=0])
+  result$betals=apply(fit$mle,1,function(x)x[abs(x)>eps])
   return(result)
 }
